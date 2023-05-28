@@ -1,0 +1,242 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: whitesmoke;
+}
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 7px grey; 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: gainsboro; 
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: wheat; 
+  }
+.header{
+    position: fixed;
+    width: 1450px;
+    height: 80px;
+    padding: 1px;
+    background: #1B3A3D;
+    color: white;
+    font-size: 20px;
+    font-family: Copperplate Gothic Light;
+    line-height: 0.7;
+    z-index: 100;
+}
+.best{
+    position: relative;
+    top: -7px;
+    left: 130px;
+}
+.hotel{
+    position: relative;
+    top: -20px;
+    left: 130px;
+}
+.small_logo{
+    position: fixed;
+    top: -10px;
+    z-index: 100;
+}
+.rect{
+    position: fixed;
+    top: 13px;
+    left: 85px;
+    z-index: 100;
+}
+.home{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.accomodations{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.about{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.contacs{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar{
+    position:fixed;
+    left: 870px;
+    top: 40px;
+    font-family: Copperplate Gothic Light;
+    z-index: 100;
+}
+.home:hover, .home:active{
+    background-color: rgb(231, 216, 133);    
+}
+.accomodations:hover, .accomodations:active{
+    background-color: rgb(231, 216, 133);
+}
+.about:hover, .about:active{
+    background-color: rgb(231, 216, 133);
+}
+.contacs:hover, .contacs:active{
+    background-color: rgb(231, 216, 133);
+}
+.content{
+    background-image: url('../Website/Icon/backgroundimage\(Light\).png');
+    background-repeat: no-repeat;
+    background-size: cover;    
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+#text1{
+  position: absolute;
+  bottom: 170px;
+  font-family: Copperplate Gothic Light;  
+  left: 460px;
+}
+#logobig{
+    position: absolute;
+    bottom: 140px;
+    left: 460px;
+}
+#goldrec{
+    position: absolute;
+    bottom: -195px;
+    left: 298px;
+}
+#welcome{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    position: absolute;
+    left: 100px;
+    top: 1050px;
+    font-size: 45px;
+}
+#to{
+    font-family: "Edwardian Script ITC";
+    position: absolute;
+    left: 340px;
+    top: 1033px;
+}
+#bgh{
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+    font-size: 45px;
+    position: absolute;
+    left: 410px;
+    top: 1059px;
+
+}
+.welcome{
+    background-image: url(../Website/Icon/backgroundimage\(Dark\).png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    padding-top: 400px;
+    padding-bottom: 400px;
+    color: white;
+    font-size: 30px;
+}
+#p{
+    color: white;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 30px;
+    position: absolute;
+    top: 1155px;
+    left: 100px;
+}
+#about{
+    color: black;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 13px;
+    background-color: white;
+    position: absolute;
+    top: 1315px;
+    left: 100px;
+    letter-spacing: 3px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+#see{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 13px;
+    position: absolute;
+    top: 1315px;
+    left: 250px;
+    letter-spacing: 3px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+#about:hover, #about:active{
+    background-color: rgb(246, 218, 105);
+    color: aliceblue;
+}
+#see:hover, #see:active{
+    color: wheat;
+}
+.hotelaco{
+    background-image: url(../Website/Icon/backgroundimage\(beach\).png);
+    padding-top: 400px;
+    padding-bottom: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#hotelaco{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 17px;
+    letter-spacing: 15px;
+    position: absolute;
+    top: 1700px;
+    right: 250px; 
+}
+.finest{
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+    font-size: 80px;
+    letter-spacing: 3px;
+}
+#finest{
+    position: absolute;
+    top: 1740px;
+    right: 350px;
+}
+#sel{
+    position: absolute;
+    top: 1840px;
+    right: 350px;
+}
+#lineb{
+    position: absolute;
+   right: 30px;
+    top: 1955px;   
+}
+#ele{
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 2020px;
+    right: 460px;
+}
+#from{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 2080px;
+    right: 40px;
+}

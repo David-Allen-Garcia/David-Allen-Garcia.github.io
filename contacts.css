@@ -1,0 +1,128 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+}
+.img{
+    background-image: url('../Website/Icon/backgroundimage\(Light\).png');
+    background-repeat: no-repeat;
+    background-size: cover;    
+    padding-top: 300px;
+    padding-bottom: 490px;
+}
+.header{
+    position: fixed;
+    width: 1450px;
+    height: 80px;
+    padding: 1px;
+    background: #1B3A3D;
+    color: white;
+    font-size: 20px;
+    font-family: Copperplate Gothic Light;
+    line-height: 0.7;
+    z-index: 100;
+}
+.best{
+    position: relative;
+    top: -7px;
+    left: 130px;
+}
+.hotel{
+    position: relative;
+    top: -20px;
+    left: 130px;
+}
+.small_logo{
+    position: fixed;
+    top: -10px;
+    z-index: 100;
+}
+.rect{
+    position: fixed;
+    top: 13px;
+    left: 85px;
+    z-index: 100;
+}
+.home{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.accomodations{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.about{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.contacs{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar{
+    position:fixed;
+    left: 870px;
+    top: 40px;
+    font-family: Copperplate Gothic Light;
+    z-index: 100;
+}
+.home:hover, .home:active{
+    background-color: rgb(231, 216, 133);    
+}
+.accomodations:hover, .accomodations:active{
+    background-color: rgb(231, 216, 133);
+}
+.about:hover, .about:active{
+    background-color: rgb(231, 216, 133);
+}
+.contacs:hover, .contacs:active{
+    background-color: rgb(231, 216, 133);
+}
+.fb{
+    font-size: 80px;
+    color: blue;
+ }
+ .twitter{
+    margin-left: 200px;
+     font-size: 80px;
+     color: rgb(139, 218, 250);
+  }
+  .insta{
+    margin-left: 200px;
+     font-size: 80px;
+     color: rgb(250, 116, 111);
+  }
+  .icons{
+    position: absolute;
+    top: 370px;
+    left: 400px;
+}
+#fb{
+    font-size: 25px;
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+    position: absolute;
+    top: 480px;
+    left: 320px;
+}
+#ig{
+    font-size: 25px;
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+    position: absolute;
+    top: 480px;
+    left: 960px;
+}
+#twitter{
+    font-size: 25px;
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+    position: absolute;
+    top: 480px;
+    left: 675px;
+}

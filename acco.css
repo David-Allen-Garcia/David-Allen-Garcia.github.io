@@ -1,0 +1,233 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(196, 174, 134);
+}
+.header{
+    position: fixed;
+    width: 1450px;
+    height: 80px;
+    padding: 1px;
+    background: #1B3A3D;
+    color: white;
+    font-size: 20px;
+    font-family: Copperplate Gothic Light;
+    line-height: 0.7;
+    z-index: 100;
+}
+.best{
+    position: relative;
+    top: -7px;
+    left: 130px;
+}
+.hotel{
+    position: relative;
+    top: -20px;
+    left: 130px;
+}
+.small_logo{
+    position: fixed;
+    top: -10px;
+    z-index: 100;
+}
+.rect{
+    position: fixed;
+    top: 13px;
+    left: 85px;
+    z-index: 100;
+}
+.home{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.accomodations{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.about{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.contacs{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar{
+    position:fixed;
+    left: 870px;
+    top: 40px;
+    font-family: Copperplate Gothic Light;
+    z-index: 100;
+}
+.home:hover, .home:active{
+    background-color: rgb(231, 216, 133);    
+}
+.accomodations:hover, .accomodations:active{
+    background-color: rgb(231, 216, 133);
+}
+.about:hover, .about:active{
+    background-color: rgb(231, 216, 133);
+}
+.contacs:hover, .contacs:active{
+    background-color: rgb(231, 216, 133);
+}
+#r1{
+    position: absolute;
+    top: -65px;
+}
+#rectgrey{
+    position: absolute;
+    right: 0px;
+    top: 40px;
+}
+#execu{
+    color: white;
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
+    letter-spacing: 1px;
+    font-size: 48px;
+    position: absolute;
+    right: 380px;
+    top: 200px;
+}
+#rm1p{
+    color: white;
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
+    letter-spacing: 1px;
+    font-size: 20px;
+    position: absolute;
+    right: 535px;
+    top: 290px;
+}
+#rm1{
+    color: white;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    line-height: 50px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 350px;
+    right: 500px;
+}
+#rm1b{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 15px;
+    position: absolute;
+    top: 600px;
+    right: 535px;
+    letter-spacing: 3px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+#rm1b:hover, #rm1b:active{
+    color: rgb(187, 233, 118);
+}
+#r2{
+    position: absolute;
+    top: 800px;
+    right: 0px;
+}
+#rectkhaki{
+    position: absolute;
+    top: 770px;
+    left: -100px;
+}
+#delex{
+    color: white;
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
+    letter-spacing: 1px;
+    font-size: 48px;
+    position: absolute;
+    left: 190px;
+    top: 950px;
+}
+#rm2p{
+    color: white;
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
+    letter-spacing: 1px;
+    font-size: 20px;
+    position: absolute;
+    left: 200px;
+    top: 1050px;
+}
+#rm2{
+    color: white;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    line-height: 50px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 1100px;
+    left: 200px;
+}
+#rm2b{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 15px;
+    position: absolute;
+    top: 1350px;
+    left: 200px;
+    letter-spacing: 3px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+#rm2b:hover, #rm2b:active{
+    color: rgb(187, 233, 118);
+}
+#r3{
+    position: absolute;
+    top: 1650px;
+    left: 50px;
+}
+#rectgb{
+    position: absolute;
+    top: 1500px;
+    right: 0px;
+}
+#jun{
+    color: white;
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
+    letter-spacing: 1px;
+    font-size: 48px;
+    position: absolute;
+    right: 380px;
+    top: 1660px;
+}
+#rm3p{
+    color: white;
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
+    letter-spacing: 1px;
+    font-size: 20px;
+    position: absolute;
+    right: 520px;
+    top: 1770px;
+}
+#rm3{
+    color: white;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    line-height: 50px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 1820px;
+    right: 510px;
+}
+#rm3b{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 15px;
+    position: absolute;
+    top: 2070px;
+    right: 490px;
+    letter-spacing: 3px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+#rm3b:hover, #rm3b:active{
+    color: rgb(187, 233, 118);
+}

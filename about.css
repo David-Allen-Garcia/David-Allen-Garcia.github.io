@@ -1,0 +1,131 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #d6bea2;
+}
+.header{
+    position: fixed;
+    width: 1450px;
+    height: 80px;
+    padding: 1px;
+    background: #1B3A3D;
+    color: white;
+    font-size: 20px;
+    font-family: Copperplate Gothic Light;
+    line-height: 0.7;
+    z-index: 100;
+}
+.best{
+    position: relative;
+    top: -7px;
+    left: 130px;
+}
+.hotel{
+    position: relative;
+    top: -20px;
+    left: 130px;
+}
+.small_logo{
+    position: fixed;
+    top: -10px;
+    z-index: 100;
+}
+.rect{
+    position: fixed;
+    top: 13px;
+    left: 85px;
+    z-index: 100;
+}
+.home{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.accomodations{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.about{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.contacs{
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar{
+    position:fixed;
+    left: 870px;
+    top: 40px;
+    font-family: Copperplate Gothic Light;
+    z-index: 100;
+}
+.home:hover, .home:active{
+    background-color: rgb(231, 216, 133);    
+}
+.accomodations:hover, .accomodations:active{
+    background-color: rgb(231, 216, 133);
+}
+.about:hover, .about:active{
+    background-color: rgb(231, 216, 133);
+}
+.contacs:hover, .contacs:active{
+    background-color: rgb(231, 216, 133);
+}
+.about1{
+    font-family: Copperplate Gothic Light;
+    background-image: url(../Website/Icon/backgroundimage\(Dark\).png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    padding-top: 400px;
+    padding-bottom: 400px;
+    font-size: 25px;
+    color: white;
+}
+#p{
+    letter-spacing: 3px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 16px;
+    color: aliceblue;
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    line-height: 40px;
+}
+#about1{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    letter-spacing: 5px;
+}
+#gallery{
+    letter-spacing: 3px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    color: aliceblue;
+    font-size: 50px;
+    position: absolute;
+    left: 630px;
+    top: 800px;
+}
+.set1{
+    position: absolute;
+    top: 1000px;
+    left: 135px;
+}
+.set2{
+    position: absolute;
+    top: 1300px;
+    left: 135px;
+}
+.set3{
+    position: absolute;
+    top: 1600px;
+    left: 135px;
+}
